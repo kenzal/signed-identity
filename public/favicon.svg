@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <defs>
+        <polygon id="hex" points="108,41 404,41 504,256 404,471 108,471 8,256"/>
+
+        <linearGradient id="bg" x1="0" y1="0" x2="0.75" y2="0.7">
+            <stop offset="0%" stop-color="#e6f0ff"/>
+            <stop offset="55%" stop-color="#8fbaff"/>
+            <stop offset="100%" stop-color="#2f6fe4"/>
+        </linearGradient>
+    </defs>
+
+    <use href="#hex" fill="url(#bg)" />
+    <use href="#hex" fill="none" stroke="#000000" stroke-width="12" />
+
+    <!-- Enlarged keyhole -->
+    <path fill="#000000" d="
+    M256 110
+    C210 110, 180 145, 180 185
+    C180 215, 205 240, 225 252
+
+    L225 270
+    L200 420
+    L312 420
+    L287 270
+    L287 252
+
+    C307 240, 332 215, 332 185
+    C332 145, 302 110, 256 110
+    Z
+  " />
+</svg>
